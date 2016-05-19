@@ -1,11 +1,11 @@
-Package: rdcm2nii
+Package: rdcm2niix
 Type: Package
 Title: Conversion of DICOM to NIfTI Through R
 Version: 0.0.1
 Date: 2016-05-19
 Author: John Muschelli
 Maintainer: John Muschelli <muschellij2@gmail.com>
-Description: Creates simple wrapper for the dcm2nii function from Chris Rorden.
+Description: Creates simple wrapper for the dcm2niix function from Chris Rorden.
 Depends:
     R (>= 3.0.1)
 Imports:
