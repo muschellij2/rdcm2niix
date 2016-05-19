@@ -1,6 +1,6 @@
 all:
-	cd console/ && g++ -O3 -DmyDisableOpenJPEG -I. main_console.cpp nii_dicom.cpp nifti1_io_core.cpp nii_ortho.cpp nii_dicom_batch.cpp jpg_0XC3.cpp ujpeg.cpp -dead_strip -o ../../inst/dcm2niix
+	cd console/ && g++ -O3 -DmyDisableOpenJPEG -I. main_console.cpp nii_dicom.cpp nifti1_io_core.cpp nii_ortho.cpp nii_dicom_batch.cpp jpg_0XC3.cpp ujpeg.cpp -dead_strip -o ../../dcm2niix
 
 clean:
-	rm ../inst/dcm2niix
+	rm ../dcm2niix
 	
